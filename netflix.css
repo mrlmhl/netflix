@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap");
+
+@import url("https://fonts.cdnfonts.com/css/netflix-font");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./background_image.jpg);
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: c;
+}
+
+#container {
+  max-width: 1240px;
+  height: 1036px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: auto;
+  margin-top: 40px;
+}
+
+#title {
+  font-size: 3.1rem;
+  color: white;
+  font-family: "Bowlby One SC", cursive;
+}
+#span1 {
+  color: red;
+}
+#des {
+  font-family: "Sorts Mill Goudy", serif;
+  text-align: center;
+}
+.heading {
+  text-align: center;
+}
+#formm {
+  background-color: black;
+  width: 400px;
+  margin: auto;
+  padding: 30px 40px;
+  /* text-align: center; */
+}
+
+#name {
+  font-size: 20px;
+}
+#age {
+  font-size: 20px;
+}
+#email {
+  font-size: 20px;
+}
+#series {
+  font-size: 25px;
+}
+#movie {
+  font-size: 20px;
+}
+#op {
+  font-size: 20px;
+}
+
+.input-box {
+  font-size: 20px;
+}
+#feedback {
+  margin-top: 15px;
+  width: 160px;
+  margin: auto;
+}
+
+.fsb {
+  text-align: center;
+}
+
+#send {
+  background-color: red;
+  color: #ffff;
+  margin: auto;
+  padding: 5px 0;
+  width: 160px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 10px;
+}
+#send:hover {
+  background-color: white;
+  color: red;
+}
